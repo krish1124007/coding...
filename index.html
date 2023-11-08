@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding....</title>
+<link rel="shortcut icon" href="Screenshot_2023-11-08_093733-removebg-preview.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+
+/* body{
+    /* background-color: rgba(0, 0, 0, 0.648); */
+
+
+nav{
+    position: fixed;
+    border: 2px solid black;
+    width: 10%;
+    height: 100%;
+    left: 0px;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+
+}
+.nav_ul{
+position: fixed;
+/* right: 20px; */
+left: 0px;
+/* border: 2px solid red; */
+display: flex;
+flex-direction:column;
+justify-content: center;
+}
+
+
+.nav_li img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav_li{
+list-style: none;
+margin-top: 40px;
+cursor: pointer;
+}
+
+#yoto{
+
+    width: 85px;
+    position: relative;
+    right: 10px;
+}
+
+#logo{
+    width: 85px;
+    height: 85px;
+    position: relative;
+    right: 10px;
+}
+
+
+.swiper {
+    /* border: 2px solid red; */
+      width: 50%;
+      height: 100%;
+      position: relative;
+      top: 80px;
+      left: 65px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+header h1{
+    text-align: center;
+    /* font-size: 60px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <nav>
+
+<ul class="nav_ul">
+    <li class="nav_li"><img src="Screenshot_2023-11-08_093733-removebg-preview.png" alt="" id="logo"></li>
+    <li class="nav_li"><a href="codes.html" target="_blank"><img src="coding.png" alt=""></a></li>
+    <li class="nav_li"><a href="https://www.youtube.com/channel/UCuk3jnvvkKxs4_xxbW3GL5Q" target="_blank"><img src="youtubelogo11.png" alt="" id="yoto"></a></li>
+    <li class="nav_li"><a href=""><img src="search_white.jpg" alt=""></a></li>
+</ul>
+
+
+
+    </nav>
+
+<header>
+    <h1>New Videos</h1>
+</header>
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+          <div class="swiper-slide"><img src="youtube1st_thubnail.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            autoplay:{
+                delay :2500,
+                disableOnInteraction: false,
+
+            },
+            dynamicBullets: true,
+          },
+        });
+      </script>
+</body>
+</html>
